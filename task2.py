@@ -23,3 +23,12 @@ Enter a word: virus
 
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
+ 
+a = input('Please Enter your 1st word: ')
+b = input('Please Enter your 2nd word: ')
+c = input('Please Enter your 3rd word: ')
+d = input('Please Enter your 4th word: ')
+e = input('Please Enter your 5th word: ')
+
+List = [a, b, c, d, e]
+print(List)

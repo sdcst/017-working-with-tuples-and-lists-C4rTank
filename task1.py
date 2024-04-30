@@ -22,6 +22,20 @@ Enter the index for an animal:2
 The animal at that index is Dog
 """
 
+c = 'Cat'
+f = 'Fish'
+d = 'Dog'
+b = 'Bear'
+t = 'Turtle'
 
+animals = [c, f, d, b, t]
+animals.sort()
 
-animals =
+num = input("Please input a number: ")
+    
+try:
+    num = int(num)
+    picked = animals[num]
+    print("The animal at that index is", picked)
+except:
+    print("That is not a number!")

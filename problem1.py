@@ -19,3 +19,19 @@ Enter the replacement:Dan
 ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Dan']
 
 """
+from typing import AsyncGenerator
+
+
+
+people = ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
+
+print(people)
+
+old = input("Choose a person from the list to replace: ")
+
+new = input("Enter the replacement: ")
+
+for i in range(len(people)):
+    if people[i] == old:
+        people[i] = new
+        print(people)
